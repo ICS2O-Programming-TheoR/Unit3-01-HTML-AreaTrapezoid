@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculating the area of a Trapezoid">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Theo Rafuse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="shortcut icon" href="./images/">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Finding the area of a Trapezoid</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <div id="multiply-math"></div>
+    <h1>Area of a Trapezoid</h1>
+    <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="side-a">Side a (cm):</label>
+        <input type="number" id="side-a" placeholder="a value" step=".01"><br><br>
+        <label for="side-b">Side b (cm):</label>
+        <input type="number" id="side-b" placeholder="b value" step=".01"><br><br>
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" placeholder="height" step=".01"><br><br>
+        <input type="submit" value="Calculate Area">
+      </form>
+    </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="area-info"></div>
+    <p></p>
+      
+  </body>
+</html>
